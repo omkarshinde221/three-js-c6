@@ -168,7 +168,7 @@ context2.fillText("'amount:' ", 23, 140 );
 context2.fillText(amount, 73, 140);
 context2.fillText("'Timestamp:' ", 23, 160 );
 context2.fillText(ttime, 93, 160);
-context2.fillText("} ", 43, 180);
+context2.fillText("} ", 93, 180);
 context2.fillText("'Timestamp:' ", 23, 200 );
 context2.fillText(time, 93, 200);
 context2.fillText("} ", 6, 206);
