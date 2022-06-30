@@ -140,7 +140,7 @@ var receiver = url.searchParams.get("receiver");
 var amount = url.searchParams.get("amount");
 var creator = url.searchParams.get("creator");
 var time = url.searchParams.get("time");
-
+var ttime = url.searchParams.get("ttime");
 // console.log("Value is:" + pair[1]);
 
 
@@ -166,6 +166,8 @@ context2.fillText("'receiver:' ", 23, 120 );
 context2.fillText(receiver, 73, 120);
 context2.fillText("'amount:' ", 23, 140 );
 context2.fillText(amount, 73, 140);
+context2.fillText("'Timestamp:' ", 23, 160 );
+context2.fillText(ttime, 93, 160);
 context2.fillText("} ", 43, 160);
 context2.fillText("'Timestamp:' ", 23, 180 );
 context2.fillText(time, 93, 180);
